@@ -171,3 +171,16 @@ footer {
 .content, .quote, .signup {
     margin-bottom: 40px;
 }
+
+@media (max-width: 768px) {
+    .header .container {
+      flex-direction: column;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .content .container {
+      flex-direction: column;
+    }
+  }
+  
